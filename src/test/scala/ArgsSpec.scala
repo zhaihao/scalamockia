@@ -37,7 +37,7 @@ class ArgsSpec extends BaseSpec with MockFactory {
   }
   "where" in {
     val m = mockFunction[Int, Int, Int]
-    m.expects(where { _ < _ }).twice()
+    m.expects(where { _ < _ }).once()
     m(1, 2)
   }
 }
