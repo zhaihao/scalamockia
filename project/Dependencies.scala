@@ -36,12 +36,12 @@ object Dependencies extends AutoPlugin {
     lazy val MOCK = "org.scalamock" %% "scalamock" % "5.2.0" % Test
 
     lazy val SCALA_TEST = Seq(
-      "org.scalatest" %% "scalatest-core"           % "3.2.14",
-      "org.scalatest"  % "scalatest-compatible"     % "3.2.14",
-      "org.scalatest" %% "scalatest-diagrams"       % "3.2.14",
-      "org.scalatest" %% "scalatest-matchers-core"  % "3.2.14",
-      "org.scalatest" %% "scalatest-shouldmatchers" % "3.2.14",
-      "org.scalatest" %% "scalatest-freespec"       % "3.2.14"
+      "org.scalatest" %% "scalatest-core"           % "3.2.15",
+      "org.scalatest"  % "scalatest-compatible"     % "3.2.15",
+      "org.scalatest" %% "scalatest-diagrams"       % "3.2.15",
+      "org.scalatest" %% "scalatest-matchers-core"  % "3.2.15",
+      "org.scalatest" %% "scalatest-shouldmatchers" % "3.2.15",
+      "org.scalatest" %% "scalatest-freespec"       % "3.2.15"
     )
 
     lazy val overrides = Seq(
